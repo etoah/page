@@ -1,0 +1,30 @@
+{
+  "name": "schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "r": "tv cdeploy ipad"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "tv": {
+    "deploy": {
+      "ipad": {
+        "config": {
+          "base": "src"
+        },
+        "list": [
+          {
+            "name": "html",
+            "src": [
+              "src/*.*"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
